@@ -1,0 +1,113 @@
+ :root {
+   --bg-white: #fff;
+   --primary-color: #258b6b;
+   --secondary-color: #e9f3f0;
+   --dark-white: #f6f7f7;
+   --dark-color: #1a1a1a;
+   --black-font: #212c2d;
+   --dark-grey-font: #535a5f;
+   --grey-font: #9fa3a5;
+   --border-color: #d7dbdf;
+ }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.report {
+  background-color: #E9F3F0;
+}
+
+.voice-notes-container {
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.voice-notes-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.voice-notes-button {
+  background-color: #25d366;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.voice-notes-transcript {
+  background-color: white;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  padding: 10px;
+  min-height: 100px;
+}
+
+.btn {
+  background-color: #258B6B;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #258B6B;
+  color: white;
+}
+
+.add {
+  background-color: #E9F3F0;
+  color: #258B6B;
+}
+
+.add:hover {
+  background-color: #E9F3F0;
+  color: #258B6B;
+}
+
+.select {
+  width: 20%;
+}
+
+.butt {
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  border: none;
+  position: relative;
+}
+
+.butt:hover {
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  border: none;
+}
+
+.butt.active::after {
+  content: "";
+  width: 100%;
+  height: 5px;
+  background-color: #258B6B;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+}
+
+.butt.active {
+  background-color: #E1F0FF;
+  color: black;
+}
+ 
